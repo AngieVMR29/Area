@@ -51,9 +51,9 @@ public class prueba {
                     break;
                 case 4:
                 double baset, alturat;
-                System.out.println("Ingrese la base del rectangulo ");
+                System.out.println("Ingrese la base del triangulo ");
                 baset=leer.nextDouble();
-                System.out.println("Ingrese la altura del rectangulo ");
+                System.out.println("Ingrese la altura del triangulo ");
                 alturat=leer.nextDouble();
                 Triangulo Triangulo1= new Triangulo();
                 Triangulo1.setAltura(alturat);
@@ -61,9 +61,7 @@ public class prueba {
                 Triangulo1.CalcularArea(); 
                 System.out.println("¿Desea continuar?");
                 Continuar= leer.next();  
-                    break;
-                default:
-                    break;
+                    break;  
             }
         
         }
