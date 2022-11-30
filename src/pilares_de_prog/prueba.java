@@ -59,7 +59,7 @@ public class prueba {
                 Triangulo1.setAltura(alturat);
                 Triangulo1.setBase(baset);
                 Triangulo1.CalcularArea(); 
-                System.out.println("¿Desea continuar?");
+                System.out.println("¿Desea continuar calculando?");
                 Continuar= leer.next();  
                     break;  
             }
